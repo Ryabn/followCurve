@@ -24,7 +24,7 @@ var controls = new THREE.OrbitControls( camera );
 camera.lookAt(0, 0, 0);
 controls.update();
 //controls.autoRotate = true;
-
+ 
 //sphere object
 const RADIUS = 50;
 const SEGMENTS = 16;
